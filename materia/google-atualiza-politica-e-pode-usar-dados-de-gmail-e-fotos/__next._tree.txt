@@ -3,4 +3,4 @@
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"google-atualiza-politica-e-pode-usar-dados-de-gmail-e-fotos","s":[]},"h":65632,"c":"$Q3"}]]
 1:[["children",{"s":"materia","h":131136,"c":"$Q2"}]]
-0:{"b":"mnOAYPZayWeuQrFI_fPSe","t":{"t":{"s":"","h":131088,"c":"$Q1"}}}
+0:{"b":"q72v0P3OqCSZhcIDFOAQE","t":{"t":{"s":"","h":131088,"c":"$Q1"}}}
