@@ -60,7 +60,8 @@ const FONTES_GOOGLE = 'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wg
     <header>
       <div class="cab">
         <a class="marca" href={url('/')} aria-label={`${NOME}, página inicial`}><span class="radar" aria-hidden="true"></span><span>Radar <em>Expanda</em></span></a>
-        <p class="data-cab">{dataCabecalho()} · negócios e tecnologia</p>
+        <p class="data-cab"><span data-hoje>{dataCabecalho()}</span> · negócios e tecnologia</p>
+        <script is:inline>(function(){try{var e=document.querySelector("[data-hoje]");if(e)e.textContent=new Intl.DateTimeFormat("pt-BR",{timeZone:"America/Sao_Paulo",weekday:"long",day:"2-digit",month:"long"}).format(new Date());}catch(_){}})();</script>
       </div>
       <nav class="secoes" aria-label="Seções">
         {MENU.map((c) => (
