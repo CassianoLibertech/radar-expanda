@@ -1,0 +1,84 @@
+/* Layout do site. Cores e letras: so por var() de tokens.css. */
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body { background: var(--papel); color: var(--tinta); font: 400 16px/1.55 var(--letra-texto); overflow-wrap: anywhere; }
+img { max-width: 100%; height: auto; display: block; }
+a { color: inherit; }
+a:focus-visible { outline: 2px solid var(--destaque); outline-offset: 2px; }
+.pular { position: absolute; left: -9999px; }
+.pular:focus { left: 16px; top: 8px; background: var(--cartao); padding: 6px 10px; z-index: 10; }
+.envelope { max-width: var(--largura); margin: 0 auto; padding: 0 16px; }
+
+/* cabecalho */
+.cab { text-align: center; padding: 22px 16px 12px; border-bottom: var(--fio-cabecalho); }
+.marca { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font: var(--peso-titulo) clamp(26px, 6vw, 40px)/1 var(--letra-titulo); letter-spacing: -.01em; }
+.marca em { font-style: normal; color: var(--destaque); }
+.radar { width: .72em; height: .72em; border-radius: 50%; border: 2px solid var(--destaque); position: relative; flex: none; }
+.radar::after { content: ""; position: absolute; inset: 22%; border-radius: 50%; background: var(--destaque); }
+.data-cab { font: 500 11px/1.4 var(--letra-mono); color: var(--apoio); margin-top: 8px; letter-spacing: .06em; text-transform: uppercase; }
+.secoes { display: flex; flex-wrap: wrap; gap: 6px 18px; justify-content: center; padding: 9px 16px; border-bottom: 1px solid var(--fio); font: 600 13px/1.3 var(--letra-texto); }
+.secoes a { text-decoration: none; }
+.secoes a:hover, .secoes a[aria-current="page"] { color: var(--destaque); }
+
+/* chapeu, titulos, listas */
+.chap { font: 600 11.5px/1.3 var(--letra-texto); color: var(--destaque); text-transform: uppercase; letter-spacing: .09em; text-decoration: none; }
+.vazio { padding: 64px 0; text-align: center; }
+.vazio h1 { font: var(--peso-titulo) clamp(26px, 5vw, 36px)/1.1 var(--letra-titulo); margin-bottom: 10px; }
+.vazio p { color: var(--apoio); max-width: 520px; margin: 0 auto; }
+
+.home { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 32px; padding: 26px 0 40px; }
+.manchete { border-bottom: 1px solid var(--fio); padding-bottom: 22px; }
+.manchete a.tit { text-decoration: none; }
+.manchete h2 { font: var(--peso-titulo) clamp(28px, 5vw, 44px)/1.06 var(--letra-titulo); letter-spacing: -.01em; margin: 6px 0 12px; }
+.manchete .capa { margin-bottom: 14px; border-radius: var(--raio); aspect-ratio: 1200 / 630; object-fit: cover; width: 100%; background: var(--fio); }
+.manchete .linha { color: var(--tinta-2); font-size: 17px; }
+.angulo { margin-top: 12px; background: var(--cartao); border: 1px solid var(--fio); border-left: 4px solid var(--destaque); padding: 10px 12px; font-size: 15px; }
+.angulo b { display: block; font: 600 11px/1.3 var(--letra-texto); letter-spacing: .1em; color: var(--destaque); text-transform: uppercase; margin-bottom: 3px; }
+.lista { list-style: none; padding: 0; counter-reset: n; }
+.lista li { display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 8px; padding: 13px 0; border-bottom: 1px solid var(--fio); counter-increment: n; }
+.lista li::before { content: counter(n, decimal-leading-zero); font: 500 12px/1.9 var(--letra-mono); color: var(--destaque); }
+.lista h3 { font: var(--peso-titulo-2) 17.5px/1.22 var(--letra-titulo); margin-top: 2px; }
+.lista h3 a { text-decoration: none; }
+.lista h3 a:hover { color: var(--destaque); }
+.meta { font: 500 11px/1.5 var(--letra-mono); color: var(--apoio); margin-top: 4px; }
+.coluna-titulo { font: 600 12px/1.3 var(--letra-mono); text-transform: uppercase; letter-spacing: .08em; color: var(--apoio); border-bottom: var(--fio-cabecalho); padding-bottom: 6px; margin-bottom: 4px; }
+
+/* materia */
+.materia { max-width: var(--largura-texto); margin: 0 auto; padding: 26px 0 48px; }
+.fontes { font: 500 12px/1.6 var(--letra-mono); color: var(--apoio); padding-bottom: 10px; margin-bottom: 18px; border-bottom: 1px solid var(--fio); }
+.fontes a { color: var(--destaque); }
+.materia h1 { font: var(--peso-titulo) clamp(28px, 5.4vw, 42px)/1.08 var(--letra-titulo); letter-spacing: -.01em; margin: 6px 0 12px; }
+.materia .linha { font-size: 18px; color: var(--tinta-2); margin-bottom: 12px; }
+.materia .meta { margin-bottom: 18px; }
+.materia figure { margin: 0 0 22px; }
+.materia figure img { width: 100%; aspect-ratio: 1200 / 630; object-fit: cover; border-radius: var(--raio); background: var(--fio); }
+.materia figcaption { font: 500 11px/1.5 var(--letra-mono); color: var(--apoio); margin-top: 6px; }
+.corpo { font-size: 17px; line-height: 1.65; color: var(--tinta-2); }
+.corpo p + p { margin-top: .8em; }
+.corpo ul, .corpo ol { margin: .6em 0 .6em 1.2em; }
+.corpo blockquote { border-left: 3px solid var(--fio); padding-left: 12px; color: var(--apoio); margin: .8em 0; }
+.corpo .bloco { margin-bottom: 22px; }
+.corpo .bloco h2 { font: 600 12px/1.3 var(--letra-texto); letter-spacing: .1em; text-transform: uppercase; color: var(--tinta); margin-bottom: 6px; }
+.corpo .bloco h2::before { content: ""; display: inline-block; width: 9px; height: 9px; background: var(--destaque); margin-right: 8px; vertical-align: 1px; }
+.corpo .bloco.sua { background: var(--cartao); border: 1px solid var(--fio); border-left: 4px solid var(--destaque); padding: 14px 16px; color: var(--tinta); }
+.corpo .bloco.sua h2 { color: var(--destaque); }
+.corpo .bloco.sua h2::before { display: none; }
+.corpo a { color: var(--destaque); }
+
+/* paginas de texto */
+.texto { max-width: var(--largura-texto); margin: 0 auto; padding: 30px 0 48px; }
+.texto h1 { font: var(--peso-titulo) clamp(28px, 5vw, 38px)/1.1 var(--letra-titulo); margin-bottom: 16px; }
+.texto h2 { font: var(--peso-titulo-2) 21px/1.25 var(--letra-titulo); margin: 22px 0 8px; }
+.texto p, .texto li { color: var(--tinta-2); font-size: 17px; }
+.texto p + p { margin-top: .7em; }
+.texto ul { margin: .5em 0 .5em 1.2em; }
+
+/* rodape */
+.rodape { border-top: var(--fio-cabecalho); padding: 18px 16px 30px; text-align: center; font: 500 12px/1.7 var(--letra-mono); color: var(--apoio); }
+.rodape nav { display: flex; flex-wrap: wrap; gap: 4px 16px; justify-content: center; margin-bottom: 6px; }
+.rodape a { color: var(--tinta); }
+
+@media (max-width: 820px) {
+  .home { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+}

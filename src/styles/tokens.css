@@ -1,0 +1,23 @@
+/* IDENTIDADE DO RADAR EXPANDA - unico arquivo de cor e letra do site.
+   Provisoria: P1 "Papel refinado" (variacoes-papel.html, 24/10/2026). Trocar de variacao = trocar SO este arquivo
+   e a linha FONTES_GOOGLE em src/layouts/Base.astro. */
+:root {
+  --papel: #f5f2eb;        /* fundo */
+  --cartao: #fffdf8;       /* fundo do bloco "o que muda" */
+  --tinta: #14171a;        /* texto e fios fortes */
+  --tinta-2: #2b3036;      /* texto corrido */
+  --apoio: #5e646b;        /* data, legenda, fontes */
+  --destaque: #0b7a85;     /* ciano escuro da marca */
+  --fio: #ddd6c8;          /* fios finos */
+
+  --letra-titulo: "Fraunces", Georgia, "Times New Roman", serif;
+  --letra-texto: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --letra-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  --peso-titulo: 800;
+  --peso-titulo-2: 600;
+  --raio: 0;               /* P1 usa cantos retos */
+  --fio-cabecalho: 3px double var(--tinta);
+  --largura: 1120px;
+  --largura-texto: 680px;
+}

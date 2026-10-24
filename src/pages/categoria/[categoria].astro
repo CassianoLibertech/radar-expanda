@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import ListaMaterias from '../../components/ListaMaterias.astro';
+import { CATEGORIAS, ordenadas } from '../../lib/site';
+
+export function getStaticPaths() {
+  return Object.keys(CATEGORIAS).map((categoria) => ({ params: { categoria } }));
+}
+const { categoria } = Astro.params;
+const nome = CATEGORIAS[categoria!];
+const lista = ordenadas(await getCollection('materias', (m) => m.data.categoria === categoria));
+---
+<Base titulo={nome} descricao={`${nome}: notícias para donos e gestores de pequenas e médias empresas.`} secaoAtual={categoria}>
+  <section class="texto" style="max-width: var(--largura)">
+    <h1>{nome}</h1>
+    {lista.length === 0 ? <p>Ainda sem matérias nesta seção.</p> : <ListaMaterias materias={lista} />}
+  </section>
+</Base>
