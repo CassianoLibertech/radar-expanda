@@ -1,0 +1,6 @@
+:HL["/radar-expanda/_next/static/chunks/2zr8w99jx7sr7.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap","style"]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"tecnologia","s":[]},"h":65632,"c":"$Q3"}]]
+1:[["children",{"s":"categoria","h":131136,"c":"$Q2"}]]
+0:{"b":"IdgYVbbVIW0jyQiAn6r8E","t":{"t":{"s":"","h":131088,"c":"$Q1"}}}

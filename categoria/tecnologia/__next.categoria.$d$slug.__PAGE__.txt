@@ -1,0 +1,27 @@
+2:"$Sreact.fragment"
+3:"/radar-expanda/_next/static/chunks/31cf-it10yxa1.js"
+4:I[39756,["$3"],"default"]
+5:I[37457,["$3"],"default"]
+c:I[22016,["$3"],""]
+d:I[97367,["$3"],"OutletBoundary"]
+e:"$Sreact.suspense"
+11:"ViewportBoundary"
+12:I[97367,["$3"],"$11"]
+13:"MetadataBoundary"
+14:I[97367,["$3"],"$13"]
+7:X
+7:C
+8:X
+b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","section",null,{"className":"cat-hero","children":["$","div",null,{"className":"cat-hero-inner","children":[["$","span",null,{"className":"cat-badge","children":"Tecnologia"}],["$","h1",null,{"className":"cat-title","children":"Tecnologia"}],["$","p",null,{"className":"cat-desc","children":["O que aconteceu em ","tecnologia"," e o que muda para a sua empresa."]}]]}]}],["$","div",null,{"className":"layout-full","children":[["$","div",null,{"className":"banner-slot banner-super","style":{"width":"100%","maxWidth":970,"minHeight":250,"margin":"24px auto","boxSizing":"border-box"},"aria-label":"Espaço publicitário 970x250","children":[["$","div",null,{"className":"label","children":"Anuncie aqui"}],["$","div",null,{"className":"size","children":[970," x ",250]}]]}],["$","div",null,{"className":"news-grid","style":{"gridTemplateColumns":"repeat(auto-fit, minmax(280px, 1fr))"},"children":[["$","$Lc","6f54345d-7252-4bb4-8dfd-4751717bd43f",{"href":"/materia/google-atualiza-politica-e-pode-usar-dados-de-gmail-e-fotos","className":"news-card","children":[["$","div",null,{"className":"news-thumb","style":{"backgroundImage":"url('https://raw.githubusercontent.com/CassianoLibertech/radar-expanda-midia/main/capas/2026/10/google-atualiza-politica-e-pode-usar-dados-de-gmail-e-fotos.webp')"},"role":"img","aria-label":"Arte: Radar Expanda"}],["$","div",null,{"className":"news-body","children":[["$","div",null,{"className":"news-cat","children":"Tecnologia"}],["$","h3",null,{"className":"news-title","children":"Google atualiza política e pode usar dados de Gmail e Fotos em anúncios personalizados"}],["$","p",null,{"className":"news-excerpt","children":"Regra em vigor desde 16 de outubro abre exceção para dados de apps conectados à Inteligência Personalizada. Veja o que o dono de empresa deve revisar na conta."}],["$","div",null,{"className":"news-date","children":"24 de outubro de 2026"}]]}]]}]]}],["$","div",null,{"className":"banner-slot banner-leaderboard","style":{"width":"100%","maxWidth":728,"minHeight":90,"margin":"24px auto","boxSizing":"border-box"},"aria-label":"Espaço publicitário 728x90","children":[["$","div",null,{"className":"label","children":"Anuncie aqui"}],["$","div",null,{"className":"size","children":[728," x ",90]}]]}],null]}]],null,["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]]}],"p":"$@10","v":null,"s":"$8"}}]]
+9:[["children",{"s":{"n":"slug","t":"d","k":"tecnologia","s":[]},"h":65632,"d":{"r":["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]]}],"p":"$@a","v":"$7","s":"$8"},"c":"$Qb"}]]
+1:[["children",{"s":"categoria","h":131136,"d":{"r":["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]]}],"p":"$@6","v":"$7","s":"$8"},"c":"$Q9"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L12",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L14",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Tecnologia — Radar Expanda"}],["$","meta","1",{"name":"description","content":"Notícias de tecnologia para quem toca empresa: o fato, o contexto e o que muda para você."}],["$","meta","2",{"name":"robots","content":"noindex, nofollow"}],["$","link","3",{"rel":"canonical","href":"https://cassianolibertech.github.io/radar-expanda/categoria/tecnologia/"}],["$","meta","4",{"property":"og:title","content":"Radar Expanda"}],["$","meta","5",{"property":"og:description","content":"Notícias de negócios e tecnologia para donos e gestores de pequenas e médias empresas."}],["$","meta","6",{"property":"og:locale","content":"pt_BR"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary"}],["$","meta","9",{"name":"twitter:title","content":"Radar Expanda"}],["$","meta","10",{"name":"twitter:description","content":"Notícias de negócios e tecnologia para donos e gestores de pequenas e médias empresas."}]]}]}],null]}],null]}],"p":"$@15","v":null,"s":"$8"}},"a":"$@16","u":"$@17","b":"IdgYVbbVIW0jyQiAn6r8E"}
+f:null
+17:true
+8:300
+8:C
+16:0
+a:"$undefined"
+6:"$undefined"
+15:"$undefined"
+10:"$undefined"
