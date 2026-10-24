@@ -1,3 +1,40 @@
 User-Agent: *
-Disallow: /
+Allow: /
 
+User-Agent: GPTBot
+Allow: /
+
+User-Agent: OAI-SearchBot
+Allow: /
+
+User-Agent: ChatGPT-User
+Allow: /
+
+User-Agent: ClaudeBot
+Allow: /
+
+User-Agent: Claude-SearchBot
+Allow: /
+
+User-Agent: PerplexityBot
+Allow: /
+
+User-Agent: Google-Extended
+Allow: /
+
+User-Agent: Applebot-Extended
+Allow: /
+
+User-Agent: CCBot
+Allow: /
+
+User-Agent: Bingbot
+Allow: /
+
+User-Agent: DuckAssistBot
+Allow: /
+
+User-Agent: meta-externalagent
+Allow: /
+
+Sitemap: https://cassianolibertech.github.io/radar-expanda/sitemap.xml

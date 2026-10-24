@@ -1,0 +1,20 @@
+# Radar Expanda
+
+> Noticias de negocios e tecnologia para donos e gestores de pequenas e medias empresas no Brasil. Cada materia junta o mesmo
+> fato de 2 ou mais veiculos (ou o anuncio oficial da propria empresa), com texto proprio em 3 blocos: o fato, o contexto e o
+> que muda para a sua empresa. Fontes com link no topo de cada materia. Feito pela Expanda.
+
+## Secoes
+- [Inicio](https://cassianolibertech.github.io/radar-expanda/)
+- [Inteligencia artificial](https://cassianolibertech.github.io/radar-expanda/categoria/ia/)
+- [Mercado](https://cassianolibertech.github.io/radar-expanda/categoria/mercado/)
+- [Credito e impostos](https://cassianolibertech.github.io/radar-expanda/categoria/credito-e-impostos/)
+- [Varejo](https://cassianolibertech.github.io/radar-expanda/categoria/varejo/)
+- [Marketing](https://cassianolibertech.github.io/radar-expanda/categoria/marketing/)
+- [Startups](https://cassianolibertech.github.io/radar-expanda/categoria/startups/)
+- [Trabalho](https://cassianolibertech.github.io/radar-expanda/categoria/trabalho/)
+- [Mundo](https://cassianolibertech.github.io/radar-expanda/categoria/mundo/)
+- [Tecnologia](https://cassianolibertech.github.io/radar-expanda/categoria/tecnologia/)
+
+## Para robos
+- [Sitemap](https://cassianolibertech.github.io/radar-expanda/sitemap.xml)
