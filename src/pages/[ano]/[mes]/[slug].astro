@@ -10,7 +10,7 @@ export async function getStaticPaths() {
 const { m } = Astro.props;
 const d = m.data;
 const { Content } = await render(m);
-const canonica = new URL(Astro.url.pathname, Astro.site).href;
+const canonica = new URL(Astro.url.pathname.endsWith('/') ? Astro.url.pathname : Astro.url.pathname + '/', Astro.site).href;
 const jsonld = {
   '@context': 'https://schema.org',
   '@type': 'NewsArticle',
