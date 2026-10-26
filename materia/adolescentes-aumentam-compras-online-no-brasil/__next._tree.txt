@@ -3,4 +3,4 @@
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"adolescentes-aumentam-compras-online-no-brasil","s":[]},"h":65632,"c":"$Q3"}]]
 1:[["children",{"s":"materia","h":131136,"c":"$Q2"}]]
-0:{"b":"OUhzDrcagSZoZC10y5BJM","t":{"t":{"s":"","h":131088,"c":"$Q1"}}}
+0:{"b":"eP4HzpodRGyfY2HjOEUgI","t":{"t":{"s":"","h":131088,"c":"$Q1"}}}
